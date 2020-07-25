@@ -44,3 +44,80 @@ table {
 html{
     font-size: 67.5%;
 }
+/*PC styles*/
+body{
+	margin: 5%;
+}
+
+h1{
+	font-size: 10rem;
+	text-align: center;
+}
+.navBar{
+	display: flex;
+	flex-flow: row;
+	width: 100%;
+	height: 3.75rem;
+	background-color: cadetblue;
+	align-items: center;
+	justify-content: center;
+}
+.navigation, .navigation2{
+	align-items: center;
+	font-size: 3rem;
+	width: 90%;
+	text-indent: 43.5%;
+}
+.loginSignup{
+	width: 10%;
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-end;
+	font-size: 2rem;
+	margin-right: 1%;
+}
+a{
+	padding-left: 1rem;
+	padding-right: 1rem;
+	text-decoration: none;
+	border: 2px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	margin: -0.25%;
+}
+.navButton3{
+	border-right: 2px solid black;
+}
+.navButton1{
+	border-left: 2px solid black;
+}
+h2{
+	font-size: 6rem;
+	text-align: center;
+}
+div.bodyParagraph{
+	text-align: justify;
+	margin-left: 30%;
+	margin-right: 30%;
+	font-size: 1.8rem;
+	margin-top: 3%;
+}
+.navigation2{
+	margin-top: 2.5%;
+	background-color: cadetblue;
+	
+}
+.closing{
+	font-size: 3rem;
+	text-align: center;
+	margin-top: 4%;
+	background-color: cornflowerblue;
+	width: 90%;
+	text-indent: 10%;
+}
+a.navButton{
+	border: none;
+}
+
+
+/* Mobile Styles */
