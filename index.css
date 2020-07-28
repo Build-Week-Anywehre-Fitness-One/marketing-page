@@ -111,13 +111,15 @@ div.bodyParagraph{
 	font-size: 3rem;
 	text-align: center;
 	margin-top: 4%;
-	background-color: cornflowerblue;
+	/* background-color: cornflowerblue; */
 	width: 90%;
 	text-indent: 10%;
 }
 a.navButton{
 	border: none;
 }
-
+.login, .signUp{
+	border: none;
+}
 
 /* Mobile Styles */

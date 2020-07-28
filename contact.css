@@ -110,5 +110,11 @@ h2{
 	text-align: center;
 	margin-top: 4%;
 }
+.navButton{
+	border: none;
+}
+.login, .signUp{
+	border: none;
+}
 
 /* Mobile Styles */
