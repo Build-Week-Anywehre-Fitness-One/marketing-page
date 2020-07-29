@@ -60,12 +60,13 @@ h1{
 	height: 3.75rem;
 	background-color: cadetblue;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 }
 .navigation, .navigation2{
+	justify-self: center;
 	align-items: center;
 	font-size: 3rem;
-	width: 90%;
+	width: 100%;
 	text-indent: 43.5%;
 }
 .loginSignup{
@@ -73,7 +74,7 @@ h1{
 	display: flex;
 	flex-flow: row;
 	justify-content: flex-end;
-	font-size: 2rem;
+	font-size: 1.6rem;
 	margin-right: 1%;
 }
 a{
@@ -103,6 +104,7 @@ h2{
 	margin-bottom: 10rem;
 }
 .navigation2{
+	text-indent: 0%;
 	margin-top: 2.5%;
 	background-color: cadetblue;
 }
@@ -154,4 +156,103 @@ img{
 	border: none;
 }
 
-/* Mobile Styles */
+@media(max-width: 1700px){
+	img{
+		width: 15rem;
+		height: auto;
+	}
+	.Robert{
+		height: 15rem;
+		width: auto;
+	}
+	.ourNames{
+		font-size: 1.4rem;
+	}
+	.loginSignup{
+		width: 20%;
+	}
+}
+@media(max-width: 1300px){
+	.aboutUs{
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin: 15%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.ourNames{
+		flex-direction: column;
+	}
+	.imagesOfUs{
+		flex-direction: column;
+	}
+	img{
+		margin-top: 1rem;
+	}
+	.closing{
+		font-size: 2rem;
+	}
+	.navigation, .navigation2{
+		font-size: 2rem;
+	}
+}
+@media(max-width: 1000px){
+	h1{
+		font-size: 6rem;
+	}
+	h2{
+		font-size: 4rem;
+	}
+	.loginSignup{
+		font-size: 1.4rem;
+		width: 25%;
+	}
+}
+@media(max-width: 800px){
+	.navBar{
+		flex-direction: column;
+		text-indent: 0%;
+		height: 5rem;
+		align-content: center;
+	}
+	.navigation, .navigation2{
+		display: flex;
+		text-indent: 0%;
+		justify-self: center;
+		justify-content: center;
+		align-content: center;
+		align-self: center;
+	}
+	.footing{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+	}
+	img{
+		margin-right: 2rem;
+	}
+	.fitness{
+		align-self: center;
+		justify-self: center;
+		margin: 0;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+		width: 35rem;
+		height: auto;
+	}
+	h1{
+		font-size: 4rem;
+	}
+	h2{
+		font-size: 2.5rem;
+	}
+}
+@media(max-width: 500px){
+	.closing{
+		font-size: 1.5rem;
+	}
+	.bodyParagraph{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
