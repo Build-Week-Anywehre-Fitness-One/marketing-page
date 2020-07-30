@@ -58,11 +58,12 @@ h1{
 	flex-flow: row;
 	width: 100%;
 	height: 3.75rem;
-	background-color: cadetblue;
+	background-color: antiquewhite;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 }
 .navigation, .navigation2{
+	justify-self: center;
 	align-items: center;
 	font-size: 3rem;
 	width: 100%;
@@ -73,7 +74,7 @@ h1{
 	display: flex;
 	flex-flow: row;
 	justify-content: flex-end;
-	font-size: 2rem;
+	font-size: 1.6rem;
 	margin-right: 1%;
 }
 a{
@@ -108,16 +109,14 @@ div.bodyParagraph{
 	justify-content: center;
 	text-indent: 0%;
 	margin-top: 2.5%;
-	background-color: cadetblue;
+	height: 4rem;
+	background-color: antiquewhite;
 	
 }
 .closing{
-	font-size: 3rem;
+	font-size: 4rem;
 	text-align: center;
 	margin-top: 4%;
-	/* background-color: cornflowerblue; */
-	width: 90%;
-	text-indent: 10%;
 }
 a.navButton{
 	border: none;
@@ -231,4 +230,13 @@ a.navButton{
 		margin-right: 10%;
 		font-size: 1.2rem;
 	}
+}
+html{
+	background-color: rgb(46, 198, 248);
+} 
+.closing, h1{
+	background-color: rgb(73, 228, 255);
+}
+.navBar, .navigation2{
+	background-color: rgb(137, 227, 255);
 }
